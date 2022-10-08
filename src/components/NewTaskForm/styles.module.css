@@ -41,4 +41,10 @@
   background: var(--blue-600);
 
   cursor: pointer;
+
+  transition: filter 0.2s;
+}
+
+.newTaskInputContainer > button:hover {
+  filter: brightness(1.3);
 }
